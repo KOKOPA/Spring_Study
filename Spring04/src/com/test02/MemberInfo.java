@@ -10,7 +10,7 @@ import org.springframework.context.MessageSourceAware;
 
 // ResourceBundleMessageSource의 setBaseName()을 통해 전달받은 파일을 setMessageSource()를 자동으로 호출해서 매핑한다.
 
-// MessageSourceAware와 ResourceBundleMessageSource는 쌍으로 사용한다...
+// MessageSourceAware와 ResourceBundleMessageSource는 쌍으로 사용한다.
 
 public class MemberInfo implements MessageSourceAware {
 
