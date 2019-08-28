@@ -1,4 +1,4 @@
-package com.mvc.dao;
+package com.test.mvc.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -9,7 +9,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.mvc.dto.MVCBoardDto;
+import com.test.mvc.dto.MVCBoardDto;
+
 
 @Repository
 public class MVCBoardDaoImpl implements MVCBoardDao {

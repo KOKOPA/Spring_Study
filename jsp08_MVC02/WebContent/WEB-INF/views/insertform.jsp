@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="post" action="insertres">
+	<form method="post" action="insertres.do">
 		<table border="1">
 			<tr>
 				<th>작성자</th>
@@ -26,7 +26,7 @@
 			<tr>
 				<td colspan="2">
 					<input type="submit" value="글 쓰기">
-					<input type="button" value="취소" onclick="location.href='selectall'">
+					<input type="button" value="취소" onclick="location.href='boardlist.do'">
 				</td>
 			</tr>
 		</table>

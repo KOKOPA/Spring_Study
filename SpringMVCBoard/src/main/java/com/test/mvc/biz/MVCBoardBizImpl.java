@@ -1,12 +1,12 @@
-package com.mvc.biz;
+package com.test.mvc.biz;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mvc.dao.MVCBoardDaoImpl;
-import com.mvc.dto.MVCBoardDto;
+import com.test.mvc.dao.MVCBoardDaoImpl;
+import com.test.mvc.dto.MVCBoardDto;
 
 @Service
 public class MVCBoardBizImpl implements MVCBoardBiz {

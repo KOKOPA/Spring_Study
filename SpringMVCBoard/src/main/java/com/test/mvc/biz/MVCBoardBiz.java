@@ -1,9 +1,9 @@
-package com.mvc.biz;
+package com.test.mvc.biz;
 
 import java.util.List;
 
-import com.mvc.dao.MVCBoardDaoImpl;
-import com.mvc.dto.MVCBoardDto;
+import com.test.mvc.dto.MVCBoardDto;
+
 
 public interface MVCBoardBiz {
 	
