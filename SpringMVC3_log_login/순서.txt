@@ -17,3 +17,9 @@
 14. pom.xml - commons.lang3
 15. com.hello.mvc03.common.filter/LogFilter.java
 16. web.xml
+---------------------------------------(login)
+17. pom.xml - org.codehaus.jackson/jackson-core, jackson-mapper
+			- (spring 4.x 이상) com.fasterxml.jackson/jackson-databind, jackson-core
+18. (index.jsp -> controller) login.jsp
+19. (ajax -> controller [@ResponseBody], biz, dao, mapper.xml)
+			
